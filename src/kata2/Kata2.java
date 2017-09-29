@@ -17,7 +17,7 @@ public class Kata2 {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         String [] data = {"uno", "uno", "dos", "tres", "tres"};
         Histogram histo = new Histogram(data);
         Map<String,Integer> histogr = histo.getHistogram();
